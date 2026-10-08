@@ -17,6 +17,14 @@ List the standards DevCraft should prefer when working in this project type.
 List the architectures DevCraft should consider first for this project type.
 - net-modular-monolith
 
+## DevCraft Execution Scope
+
+Creating a project from this project type is repository setup, not DevCraft feature work.
+
+- Running this project type does not require an active DevCraft feature, and no feature needs to be in the `Implementation` state.
+- The DevCraft status-gated implementation rule does not apply while executing the Setup Guidance below. DevCraft may create solutions, projects, folders, project references, package references, configuration, and scaffolded code needed to complete the setup.
+- This exemption covers only the setup defined by this project type. Once setup is complete, all further work, including business logic and changes to the generated projects, follows normal DevCraft feature rules.
+
 ## Setup Guidance
 
 ### Step 1
