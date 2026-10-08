@@ -1,0 +1,104 @@
+{
+  "Architectures": [
+    {
+      "Slug": "angular-frontend",
+      "Name": "Angular FrontEnd",
+      "Description": "Define the default architecture guidance for Angular frontend applications.",
+      "Path": "architectures/Angular-FrontEnd.md"
+    },
+    {
+      "Slug": "net-aspire-13-3",
+      "Name": ".NET Aspire 13.3+",
+      "Description": "Define the default architecture guidance for building and operating distributed .NET applications with Aspire 13.3+.",
+      "Path": "architectures/AspireDotNet.md"
+    },
+    {
+      "Slug": "net-distributed-app",
+      "Name": ".NET Distributed App",
+      "Description": "Define the default architecture guidance for a .NET distributed application made up of multiple deployable parts.",
+      "Path": "architectures/DotNet-Distributed-App.md"
+    },
+    {
+      "Slug": "net-mediator-pattern",
+      "Name": ".NET Mediator Pattern",
+      "Description": "Define how .NET applications use the mediator pattern through the `Mediator` library. The mediator is the in-process boundary between callers and application behavior: callers express intent as messages, while Mediator locates and invokes matching handlers.",
+      "Path": "architectures/DotNet-Mediator-Pattern.md"
+    },
+    {
+      "Slug": "net-mediator-pattern-with-xmediat",
+      "Name": ".NET Mediator Pattern with XMediat",
+      "Description": "Define how .NET applications use the mediator pattern through Xelseor LLC's `XMediat` library. The mediator is the in-process boundary between callers and application behavior: callers express intent as messages, while XMediat locates and invokes the matching handlers.",
+      "Path": "architectures/DotNet-Mediator-Pattern-XMediator.md"
+    },
+    {
+      "Slug": "net-micro-services",
+      "Name": ".NET Micro Services",
+      "Description": "Define the default architecture guidance for a .NET microservices system.",
+      "Path": "architectures/DotNet-Micro-Services.md"
+    },
+    {
+      "Slug": "net-modular-monolith",
+      "Name": ".NET Modular Monolith",
+      "Description": "Define the default architecture guidance for a .NET modular monolith application.",
+      "Path": "architectures/DotNet-Modular-Monolith.md"
+    },
+    {
+      "Slug": "net-n-tier-monolith",
+      "Name": ".NET N-Tier Monolith",
+      "Description": "Define the default architecture guidance for a .NET n-tier monolith.",
+      "Path": "architectures/DotNet-N-Tier-Monolith.md"
+    },
+    {
+      "Slug": "net-repository-pattern",
+      "Name": ".NET Repository Pattern",
+      "Description": "Define a reusable repository pattern for C# and .NET applications that use Entity Framework Core while preserving clear module boundaries, readable query composition, and testable data access.",
+      "Path": "architectures/DotNet-Repository-Pattern.md"
+    }
+  ],
+  "Standards": [
+    {
+      "Slug": "asp-net-core-standards",
+      "Name": "ASP.NET Core Standards",
+      "Description": "Define ASP.NET Core specific standards that build on the shared C# standards.",
+      "Path": "standards/ASP.Net Core.md"
+    },
+    {
+      "Slug": "c-standards",
+      "Name": "C# Standards",
+      "Description": "Define default coding standards for C# code across services, applications, libraries, and tests.",
+      "Path": "standards/CSharp.md"
+    },
+    {
+      "Slug": "javascript-standards",
+      "Name": "JavaScript Standards",
+      "Description": "Define default coding standards for JavaScript code in browser, server, scripting, and test environments.",
+      "Path": "standards/Javascript.md"
+    },
+    {
+      "Slug": "typescript-standards",
+      "Name": "TypeScript Standards",
+      "Description": "Define default coding standards for TypeScript applications, libraries, frontend code, backend code, and tests.",
+      "Path": "standards/Typescript.md"
+    }
+  ],
+  "ProjectTypes": [
+    {
+      "Slug": "project-type-net-modular-monolith-api",
+      "Name": "Project Type: .NET Modular Monolith API",
+      "Description": "Creates an ASP.NET Core Web API modular monolith without .NET Aspire. This project type is for backend applications that should deploy as one application while preserving explicit module boundaries through contracts projects, module implementation projects, a shared core contracts project, and a shared core module project.",
+      "Path": "project-types/net-modular-monolith-api.md"
+    },
+    {
+      "Slug": "project-type-net-modular-monolith-api-aspire-angular",
+      "Name": "Project Type: .NET Modular Monolith API with Aspire and Angular",
+      "Description": "This project type creates or guides a full-stack application with an ASP.NET Core Web API backend, modular monolith backend structure, .NET Aspire AppHost orchestration, Aspire Service Defaults, a shared Aspire constants library, and an Angular application using the latest stable Angular version available at project creation time.",
+      "Path": "project-types/net-modular-monolith-api-aspire-angular.md"
+    },
+    {
+      "Slug": "project-type-net-modular-monolith-module",
+      "Name": "Project Type: .NET Modular Monolith Module",
+      "Description": "Creates a module pair for an existing .NET modular monolith solution. The project type creates a contracts library and a module implementation library under `{solutionRoot}/Modules/{ModuleName}` and places both projects in the `./Modules/{ModuleName}` solution folder.",
+      "Path": "project-types/net-modular-monolith-module.md"
+    }
+  ]
+}
