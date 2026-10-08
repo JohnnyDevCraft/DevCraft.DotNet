@@ -1,0 +1,11 @@
+{
+  "ProjectKey": "58ba0eaf-4032-4849-b9e3-ea55985bc787",
+  "SelectedFeatureStorage": "repo-central",
+  "FeaturesIndexPath": "features.json",
+  "ProjectProfile": {
+    "Name": "DevCraft ProjectType Definitions",
+    "Purpose": "This is a Public Library for some common .Net Project Types",
+    "Description": "This is a Public Library for some common .Net Project Types"
+  },
+  "Features": []
+}
